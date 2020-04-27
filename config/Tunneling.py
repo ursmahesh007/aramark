@@ -1,6 +1,6 @@
 from sshtunnel import SSHTunnelForwarder
 tunnel = SSHTunnelForwarder(
-    '40.121.95.225',
+    '23.96.14.235',
     ssh_username="testuser",
     ssh_password="Windows@1234",
     remote_bind_address=('127.0.0.1', 27017)
